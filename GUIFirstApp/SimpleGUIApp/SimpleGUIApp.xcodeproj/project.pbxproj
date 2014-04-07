@@ -21,6 +21,7 @@
 		71C212701891CAC900A91329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C212521891CAC900A91329 /* UIKit.framework */; };
 		71C212781891CAC900A91329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C212761891CAC900A91329 /* InfoPlist.strings */; };
 		71C2127A1891CAC900A91329 /* SimpleGUIAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C212791891CAC900A91329 /* SimpleGUIAppTests.m */; };
+		71C212841891DB0400A91329 /* clockwork_duck_2_3-3333px.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C212831891DB0400A91329 /* clockwork_duck_2_3-3333px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		71C212751891CAC900A91329 /* SimpleGUIAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGUIAppTests-Info.plist"; sourceTree = "<group>"; };
 		71C212771891CAC900A91329 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C212791891CAC900A91329 /* SimpleGUIAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGUIAppTests.m; sourceTree = "<group>"; };
+		71C212831891DB0400A91329 /* clockwork_duck_2_3-3333px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockwork_duck_2_3-3333px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		71C212541891CAC900A91329 /* SimpleGUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				71C212831891DB0400A91329 /* clockwork_duck_2_3-3333px.png */,
 				71C2125D1891CAC900A91329 /* AppDelegate.h */,
 				71C2125E1891CAC900A91329 /* AppDelegate.m */,
 				71C212601891CAC900A91329 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C212671891CAC900A91329 /* Images.xcassets in Resources */,
+				71C212841891DB0400A91329 /* clockwork_duck_2_3-3333px.png in Resources */,
 				71C212591891CAC900A91329 /* InfoPlist.strings in Resources */,
 				71C212621891CAC900A91329 /* Main.storyboard in Resources */,
 			);
@@ -460,6 +464,7 @@
 				71C2127F1891CAC900A91329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71C212801891CAC900A91329 /* Build configuration list for PBXNativeTarget "SimpleGUIAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				71C212821891CAC900A91329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7127665618F35FD2006774F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127665518F35FD2006774F1 /* Foundation.framework */; };
+		7127665818F35FD2006774F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127665718F35FD2006774F1 /* CoreGraphics.framework */; };
+		7127665A18F35FD2006774F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127665918F35FD2006774F1 /* UIKit.framework */; };
+		7127666018F35FD2006774F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7127665E18F35FD2006774F1 /* InfoPlist.strings */; };
+		7127666218F35FD2006774F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127666118F35FD2006774F1 /* main.m */; };
+		7127666618F35FD2006774F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127666518F35FD2006774F1 /* AppDelegate.m */; };
+		7127666918F35FD2006774F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7127666718F35FD2006774F1 /* Main.storyboard */; };
+		7127666C18F35FD2006774F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127666B18F35FD2006774F1 /* ViewController.m */; };
+		7127666E18F35FD2006774F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7127666D18F35FD2006774F1 /* Images.xcassets */; };
+		7127667518F35FD2006774F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127667418F35FD2006774F1 /* XCTest.framework */; };
+		7127667618F35FD2006774F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127665518F35FD2006774F1 /* Foundation.framework */; };
+		7127667718F35FD2006774F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127665918F35FD2006774F1 /* UIKit.framework */; };
+		7127667F18F35FD2006774F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7127667D18F35FD2006774F1 /* InfoPlist.strings */; };
+		7127668118F35FD2006774F1 /* DragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127668018F35FD2006774F1 /* DragDropTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7127667818F35FD2006774F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7127664A18F35FD2006774F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7127665118F35FD2006774F1;
+			remoteInfo = DragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7127665218F35FD2006774F1 /* DragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7127665518F35FD2006774F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7127665718F35FD2006774F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7127665918F35FD2006774F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7127665D18F35FD2006774F1 /* DragDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragDrop-Info.plist"; sourceTree = "<group>"; };
+		7127665F18F35FD2006774F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7127666118F35FD2006774F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7127666318F35FD2006774F1 /* DragDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DragDrop-Prefix.pch"; sourceTree = "<group>"; };
+		7127666418F35FD2006774F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7127666518F35FD2006774F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7127666818F35FD2006774F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7127666A18F35FD2006774F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7127666B18F35FD2006774F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7127666D18F35FD2006774F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7127667318F35FD2006774F1 /* DragDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7127667418F35FD2006774F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7127667C18F35FD2006774F1 /* DragDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragDropTests-Info.plist"; sourceTree = "<group>"; };
+		7127667E18F35FD2006774F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7127668018F35FD2006774F1 /* DragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7127664F18F35FD2006774F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127665818F35FD2006774F1 /* CoreGraphics.framework in Frameworks */,
+				7127665A18F35FD2006774F1 /* UIKit.framework in Frameworks */,
+				7127665618F35FD2006774F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7127667018F35FD2006774F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127667518F35FD2006774F1 /* XCTest.framework in Frameworks */,
+				7127667718F35FD2006774F1 /* UIKit.framework in Frameworks */,
+				7127667618F35FD2006774F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7127664918F35FD2006774F1 = {
+			isa = PBXGroup;
+			children = (
+				7127665B18F35FD2006774F1 /* DragDrop */,
+				7127667A18F35FD2006774F1 /* DragDropTests */,
+				7127665418F35FD2006774F1 /* Frameworks */,
+				7127665318F35FD2006774F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7127665318F35FD2006774F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7127665218F35FD2006774F1 /* DragDrop.app */,
+				7127667318F35FD2006774F1 /* DragDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7127665418F35FD2006774F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7127665518F35FD2006774F1 /* Foundation.framework */,
+				7127665718F35FD2006774F1 /* CoreGraphics.framework */,
+				7127665918F35FD2006774F1 /* UIKit.framework */,
+				7127667418F35FD2006774F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7127665B18F35FD2006774F1 /* DragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				7127666418F35FD2006774F1 /* AppDelegate.h */,
+				7127666518F35FD2006774F1 /* AppDelegate.m */,
+				7127666718F35FD2006774F1 /* Main.storyboard */,
+				7127666A18F35FD2006774F1 /* ViewController.h */,
+				7127666B18F35FD2006774F1 /* ViewController.m */,
+				7127666D18F35FD2006774F1 /* Images.xcassets */,
+				7127665C18F35FD2006774F1 /* Supporting Files */,
+			);
+			path = DragDrop;
+			sourceTree = "<group>";
+		};
+		7127665C18F35FD2006774F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7127665D18F35FD2006774F1 /* DragDrop-Info.plist */,
+				7127665E18F35FD2006774F1 /* InfoPlist.strings */,
+				7127666118F35FD2006774F1 /* main.m */,
+				7127666318F35FD2006774F1 /* DragDrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7127667A18F35FD2006774F1 /* DragDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				7127668018F35FD2006774F1 /* DragDropTests.m */,
+				7127667B18F35FD2006774F1 /* Supporting Files */,
+			);
+			path = DragDropTests;
+			sourceTree = "<group>";
+		};
+		7127667B18F35FD2006774F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7127667C18F35FD2006774F1 /* DragDropTests-Info.plist */,
+				7127667D18F35FD2006774F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7127665118F35FD2006774F1 /* DragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7127668418F35FD2006774F1 /* Build configuration list for PBXNativeTarget "DragDrop" */;
+			buildPhases = (
+				7127664E18F35FD2006774F1 /* Sources */,
+				7127664F18F35FD2006774F1 /* Frameworks */,
+				7127665018F35FD2006774F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDrop;
+			productName = DragDrop;
+			productReference = 7127665218F35FD2006774F1 /* DragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7127667218F35FD2006774F1 /* DragDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7127668718F35FD2006774F1 /* Build configuration list for PBXNativeTarget "DragDropTests" */;
+			buildPhases = (
+				7127666F18F35FD2006774F1 /* Sources */,
+				7127667018F35FD2006774F1 /* Frameworks */,
+				7127667118F35FD2006774F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7127667918F35FD2006774F1 /* PBXTargetDependency */,
+			);
+			name = DragDropTests;
+			productName = DragDropTests;
+			productReference = 7127667318F35FD2006774F1 /* DragDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7127664A18F35FD2006774F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mital Jani";
+				TargetAttributes = {
+					7127667218F35FD2006774F1 = {
+						TestTargetID = 7127665118F35FD2006774F1;
+					};
+				};
+			};
+			buildConfigurationList = 7127664D18F35FD2006774F1 /* Build configuration list for PBXProject "DragDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7127664918F35FD2006774F1;
+			productRefGroup = 7127665318F35FD2006774F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7127665118F35FD2006774F1 /* DragDrop */,
+				7127667218F35FD2006774F1 /* DragDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7127665018F35FD2006774F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127666E18F35FD2006774F1 /* Images.xcassets in Resources */,
+				7127666018F35FD2006774F1 /* InfoPlist.strings in Resources */,
+				7127666918F35FD2006774F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7127667118F35FD2006774F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127667F18F35FD2006774F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7127664E18F35FD2006774F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127666C18F35FD2006774F1 /* ViewController.m in Sources */,
+				7127666618F35FD2006774F1 /* AppDelegate.m in Sources */,
+				7127666218F35FD2006774F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7127666F18F35FD2006774F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127668118F35FD2006774F1 /* DragDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7127667918F35FD2006774F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7127665118F35FD2006774F1 /* DragDrop */;
+			targetProxy = 7127667818F35FD2006774F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7127665E18F35FD2006774F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7127665F18F35FD2006774F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7127666718F35FD2006774F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7127666818F35FD2006774F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7127667D18F35FD2006774F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7127667E18F35FD2006774F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7127668218F35FD2006774F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7127668318F35FD2006774F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7127668518F35FD2006774F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragDrop/DragDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragDrop/DragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7127668618F35FD2006774F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragDrop/DragDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragDrop/DragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7127668818F35FD2006774F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragDrop/DragDrop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DragDropTests/DragDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7127668918F35FD2006774F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DragDrop/DragDrop-Prefix.pch";
+				INFOPLIST_FILE = "DragDropTests/DragDropTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7127664D18F35FD2006774F1 /* Build configuration list for PBXProject "DragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7127668218F35FD2006774F1 /* Debug */,
+				7127668318F35FD2006774F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7127668418F35FD2006774F1 /* Build configuration list for PBXNativeTarget "DragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7127668518F35FD2006774F1 /* Debug */,
+				7127668618F35FD2006774F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7127668718F35FD2006774F1 /* Build configuration list for PBXNativeTarget "DragDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7127668818F35FD2006774F1 /* Debug */,
+				7127668918F35FD2006774F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7127664A18F35FD2006774F1 /* Project object */;
+}
